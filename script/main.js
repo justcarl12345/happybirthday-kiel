@@ -1,3 +1,5 @@
+
+
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
@@ -267,6 +269,6 @@ const animationTimeline = () => {
     // Restart Animation on click
     const replyBtn = document.getElementById("replay");
     replyBtn.addEventListener("click", () => {
-        tl.restart();
+        location.reload();
     });
 }
